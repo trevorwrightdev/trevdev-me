@@ -16,7 +16,7 @@ export default function Home() {
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>my work</h1>
                 {/* anchor tag open in new tab */}
-                <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='hover:underline max-w-max'>realms</a>
+                <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline max-w-max'>realms</a>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>contact</h1>
                 <div className='flex flex-col items-center gap-2'>
