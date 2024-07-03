@@ -3,7 +3,7 @@ import { GithubLogo, XLogo, TwitchLogo } from '@phosphor-icons/react'
 
 export default function Home() {
   return (
-    <main className='flex flex-col items-center md:pt-4'>
+    <main className='flex flex-col items-center md:py-4'>
         <div className='flex flex-col gap-4 border-none md:border-dashed border-2 border-slate-400 w-full md:w-auto'>
             <img src='/image.png' className='w-full' style={{imageRendering: 'pixelated'}}/>
             <div className='p-4 flex flex-col gap-2'>
