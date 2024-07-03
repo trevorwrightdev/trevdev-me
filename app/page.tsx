@@ -9,7 +9,7 @@ export default function Home() {
             <div className='p-4 flex flex-col gap-2'>
                 <h1 className='text-3xl text-slate-400'>trevdev</h1>
                 <p>software engineer and game developer.</p>
-                <p>got a lot of ideas, hoping that i can get some out of my head.</p>
+                <p>got a lot of ideas, hoping i can get some out of my head.</p>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>blog</h1>
                 <p>coming soon.</p>
