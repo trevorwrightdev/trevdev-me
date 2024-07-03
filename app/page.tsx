@@ -1,5 +1,5 @@
 'use client'
-import { GithubLogo, XLogo, Envelope } from '@phosphor-icons/react'
+import { GithubLogo, XLogo, TwitchLogo } from '@phosphor-icons/react'
 
 export default function Home() {
   return (
@@ -26,6 +26,9 @@ export default function Home() {
                         </a>
                         <a href="https://x.com/trevdev__" target="_blank" rel="noopener noreferrer">
                             <XLogo className='h-8 w-8 cursor-pointer hover:text-zinc-500'/>
+                        </a>
+                        <a href="https://www.twitch.tv/trevdev__" target="_blank" rel="noopener noreferrer">
+                            <TwitchLogo className='h-8 w-8 cursor-pointer hover:text-zinc-500'/>
                         </a>
                     </div>
                     <p>or email me at <a href='mailto:contact@trevdev.me' className='underline text-slate-400'>contact@trevdev.me</a></p>
