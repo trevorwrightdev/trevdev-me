@@ -12,7 +12,7 @@ export default function Home() {
                 <p>got a lot of ideas. making some real.</p>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>blog</h1>
-                <p>coming soon.</p>
+                <p>coming soon (maybe)</p>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>my work</h1>
                 {/* anchor tag open in new tab */}
