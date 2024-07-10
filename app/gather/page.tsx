@@ -12,12 +12,27 @@ export default function Gather() {
                 The product seemed like a culmination of my interests in web development and 2D games. 
                 I was a bit envious that I never got to work on it!
             </p>
-            <p className='text-blue-300'>I would love to work at Gather. Here's my pitch.</p>
+            <p className='text-blue-300'>I would love to work at Gather. Here are some of my skills.</p>
             <p>
-                I have created a web app called {''}
+                I am a full-stack web developer with most of my expertise in {' '}
+                <span className='font-bold text-cyan-500'>TypeScript</span>, {' '}
+                <span className='font-bold text-red-500'>React</span>, and {' '}
+                <span className='font-bold text-green-500'>Node.js</span>.
+                Some other technologies worth mentioning are
+                Python, FastAPI, Express, Tailwind, Next.js, Firebase, Supabase, WebSockets, and Pixi.js. 
+                I also have a lot of experience working with spritesheets and tilesets. 
+                (check out the <a href="https://store.steampowered.com/app/1634270/CHRONOPHOBIA/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>CHRONOPHOBIA</a> demo or {' '}
+                <a href="https://origins.kaijukingz.io/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>Origins of STOD</a>
+                )
+            </p>
+            <p className='text-blue-300'>
+                In an attempt to better prove my skills to you, I made a project that is heavily inspired by Gather!
+            </p>
+            <p>
+                I created a web app called {''}
                 <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>realms</a>{' '}
-                with Gather in mind. It is heavily inspired by Gather and has a lot of identical features. (tilemap editor, multiplayer lobbies, etc.)
-                It also has a text-chat system that users can link to a Discord server.
+                with Gather in mind. It has a lot of identical features. (tilemap editor, multiplayer lobbies, etc.)
+                On top of this, it has a text-chat system that users can link to a Discord server.
             </p>
             <div className='w-full flex flex-col items-center gap-2'>
                 <p className='text-sm text-gray-400'>Tilemap Editor</p>
@@ -28,16 +43,12 @@ export default function Gather() {
                 <img src='/gather2.png' className='w-full rounded-lg border-2 border-white'/>
             </div>
             <p>
-                Feel free to make an account and try it out, or you can watch a demo{' '}
-                <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>here</a>.
+                Feel free to try it out {' '}
+                <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>here</a>
+                , or you can watch a demo{' '}
+                <a href="https://www.youtube.com/watch?v=fmzD44TveFI" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>here</a>.
                 I specifically made it to show off my skills and interest in working at Gather. I tried to use a tech stack similar to yours. It was made
-                with {' '}
-                <span className='font-bold text-cyan-500'>TypeScript</span>, {' '}
-                <span className='font-bold text-red-500'>React</span>, and {' '}
-                <span className='font-bold text-green-500'>Node.js</span>.
-            </p>
-            <p>
-                
+                with TypeScript, React, and Node.js.
             </p>
         </div>
     </main>
