@@ -14,7 +14,7 @@ export default function Gather() {
             </p>
             <p className='text-blue-300'>I would love to work at Gather. Here are some of my skills.</p>
             <p>
-                I am a full-stack web developer with most of my expertise in {' '}
+                I am a full-stack web developer from southern California with most of my expertise in {' '}
                 <span className='font-bold text-cyan-500'>TypeScript</span>, {' '}
                 <span className='font-bold text-red-500'>React</span>, and {' '}
                 <span className='font-bold text-green-500'>Node.js</span>.
@@ -51,11 +51,17 @@ export default function Gather() {
                 made in Node.js, React, and TypeScript.
             </p>
             <p>
-                I think I would be a great fit at Gather. I have confidence in working with your tech stack and I understand the product.
+                I used Gather a lot at my previous job. I believe it's a must-have for certain remote teams. 
+                It provides a lot of transparency regarding who is working on what, and with who. A lot of that transparency is lost in normal remote work.
+                If users actually lean into what Gather tries to provide, they can reap benefits once thought exclusive to in-person work. No other product I've seen 
+                can facilitate that. 
+            </p>
+            <p>
+                I think I would be a great fit at Gather. I have confidence in working with your tech stack and I understand the product. 
                 If you have any questions or would like to see more of my work, please don't hesitate to reach out.
             </p>
             <p className='text-green-500'>
-                Email me at <a href='mailto:contact@trevdev.me' className='underline text-blue-500'>contact@trevdev.me</a>
+                Email me at <a href='mailto:contact@trevdev.me' className='underline text-blue-500'>contact@trevdev.me</a>.
             </p>
         </div>
     </main>
