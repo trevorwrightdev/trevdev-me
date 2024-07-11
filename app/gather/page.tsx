@@ -20,13 +20,13 @@ export default function Gather() {
                 <span className='font-bold text-green-500'>Node.js</span>.
                 Some other technologies worth mentioning are
                 Python, FastAPI, Express, Tailwind, Next.js, Firebase, Supabase, WebSockets, and Pixi.js. 
-                I also have a lot of experience working with spritesheets and tilesets. 
+                I also have applicable experience working with spritesheets and tilesets. 
                 (check out the <a href="https://store.steampowered.com/app/1634270/CHRONOPHOBIA/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>CHRONOPHOBIA</a> demo or {' '}
                 <a href="https://origins.kaijukingz.io/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>Origins of STOD</a>
                 )
             </p>
             <p className='text-blue-300'>
-                In an attempt to better prove my skills to you, I made a project that is heavily inspired by Gather!
+                In an attempt to better prove my skills to you, I made a project that is heavily inspired by Gather.
             </p>
             <p>
                 I created a web app called {''}
@@ -47,8 +47,15 @@ export default function Gather() {
                 <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>here</a>
                 , or you can watch a demo{' '}
                 <a href="https://www.youtube.com/watch?v=fmzD44TveFI" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>here</a>.
-                I specifically made it to show off my skills and interest in working at Gather. I tried to use a tech stack similar to yours. It was made
-                with TypeScript, React, and Node.js.
+                I specifically made it to demonstrate my skills and interest in working at Gather. I tried to use a tech stack similar to yours, it's all
+                made in Node.js, React, and TypeScript.
+            </p>
+            <p>
+                I think I would be a great fit at Gather. I have confidence in working with your tech stack and I understand the product.
+                If you have any questions or would like to see more of my work, please don't hesitate to reach out.
+            </p>
+            <p className='text-green-500'>
+                Email me at <a href='mailto:contact@trevdev.me' className='underline text-blue-500'>contact@trevdev.me</a>
             </p>
         </div>
     </main>
