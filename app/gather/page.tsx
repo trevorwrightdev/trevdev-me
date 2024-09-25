@@ -1,8 +1,8 @@
 
 export default function Gather() {
   return (
-    <main className='flex flex-col items-center md:py-4'>
-        <div className='flex flex-col gap-4 border-none w-full md:w-auto p-4 max-w-2xl'>
+    <main className='flex flex-col items-center'>
+        <div className='flex flex-col gap-4 w-full md:w-auto p-4 max-w-2xl'>
             <h1 className='font-bold text-xl'>Hello, my name is <span className='text-green-500'>Trevor</span> and I want to work at <span className='text-blue-500'>Gather</span>.</h1>
             <p>
                 When I first used Gather while at my previous company, I remember immediately wondering,
@@ -19,7 +19,7 @@ export default function Gather() {
                 <span className='font-bold text-red-500'>React</span>, and {' '}
                 <span className='font-bold text-green-500'>Node.js</span>.
                 Some other technologies worth mentioning are
-                Python, FastAPI, Express, Tailwind, Next.js, Firebase, Supabase, WebSockets, and Pixi.js. 
+                Python, Express, Tailwind, Next.js, Firebase, Supabase, WebSockets, and Pixi.js. 
                 I also have applicable experience working with spritesheets and tilesets. 
                 (check out the <a href="https://store.steampowered.com/app/1634270/CHRONOPHOBIA/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>CHRONOPHOBIA</a> demo or {' '}
                 <a href="https://origins.kaijukingz.io/" target="_blank" rel="noopener noreferrer" className='underline text-blue-500'>Origins of STOD</a>
