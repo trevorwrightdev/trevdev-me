@@ -7,13 +7,14 @@ export default function Home() {
         <div className='flex flex-col w-full md:w-[600px] md:pt-32'>
             <section className='flex flex-col gap-8 md:flex-row md:p-4'>
                 <img src='/image.png' className='w-full md:w-48' style={{imageRendering: 'pixelated'}}/>
-                <div className='flex flex-col gap-2 justify-center p-4'>
+                <div className='flex flex-col gap-2 justify-center pl-4'>
                     <h1 className='text-3xl text-slate-400'>trevdev</h1>
                     <p>software engineer and game developer.</p>
                     <p>got a lot of ideas. making some real.</p>
                 </div>
             </section>
             <div className='p-4 flex flex-col gap-2'>
+                <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>blog</h1>
                 <p>coming soon (maybe)</p>
                 <div className='h-[1px] w-full bg-slate-400'/>
