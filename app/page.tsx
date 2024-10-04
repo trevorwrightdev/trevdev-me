@@ -16,14 +16,14 @@ export default function Home() {
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>about</h1>
                 <p>
-                    I'm Trevor Wright, a software engineer in Southern California. 
-                    I'm usually working on full-stack web apps, but I also do some game development here and there. 
-                    Have experience with TypeScript, React, Next.js, {' '}
-                    <a href="https://pixijs.com/" target="_blank" rel="noopener noreferrer" className='underline max-w-max'>Pixi.js</a>, and a lot more. 
+                    I'm Trevor, a software engineer in Southern California. 
+                    I usually work on full-stack web apps, but I also do some game development here and there. 
+                    I'm good at TypeScript, React, Next.js, {' '}
+                    <a href="https://pixijs.com/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-[#E72264]'>Pixi.js</a>, and a lot more. 
                 </p>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>projects</h1>
-                <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline max-w-max'>realms</a>
+                <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-green-400'>realms</a>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>contact</h1>
                 <div className='flex flex-col items-center gap-2'>
