@@ -9,17 +9,20 @@ export default function Home() {
                 <img src='/image.png' className='w-full md:w-48' style={{imageRendering: 'pixelated'}}/>
                 <div className='flex flex-col gap-2 justify-center pl-4'>
                     <h1 className='text-3xl text-slate-400'>trevdev</h1>
-                    <p>software engineer and game developer.</p>
                     <p>got a lot of ideas. making some real.</p>
                 </div>
             </section>
             <div className='p-4 flex flex-col gap-2'>
                 <div className='h-[1px] w-full bg-slate-400'/>
-                <h1 className='text-2xl text-slate-400'>blog</h1>
-                <p>coming soon (maybe)</p>
+                <h1 className='text-2xl text-slate-400'>about</h1>
+                <p>
+                    I'm Trevor Wright, a software engineer in Southern California. 
+                    I'm usually working on full-stack web apps, but I also do some game development here and there. 
+                    Have experience with TypeScript, React, Next.js, {' '}
+                    <a href="https://pixijs.com/" target="_blank" rel="noopener noreferrer" className='underline max-w-max'>Pixi.js</a>, and a lot more. 
+                </p>
                 <div className='h-[1px] w-full bg-slate-400'/>
-                <h1 className='text-2xl text-slate-400'>my work</h1>
-                {/* anchor tag open in new tab */}
+                <h1 className='text-2xl text-slate-400'>projects</h1>
                 <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline max-w-max'>realms</a>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>contact</h1>
