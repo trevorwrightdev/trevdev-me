@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className='flex flex-col items-center'>
         <div className='flex flex-col w-full md:w-[600px] md:pt-32'>
-            <section className='flex flex-col gap-8 md:flex-row'>
+            <section className='flex flex-col gap-8 md:flex-row md:p-4'>
                 <img src='/image.png' className='w-full md:w-48' style={{imageRendering: 'pixelated'}}/>
                 <div className='flex flex-col gap-2 justify-center p-4'>
                     <h1 className='text-3xl text-slate-400'>trevdev</h1>
