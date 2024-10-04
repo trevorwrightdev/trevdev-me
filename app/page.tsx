@@ -4,13 +4,16 @@ import { GithubLogo, XLogo, YoutubeLogo } from '@phosphor-icons/react'
 export default function Home() {
   return (
     <main className='flex flex-col items-center'>
-        <div className='flex flex-col gap-4 border-none md:border-dashed md:border-l-2 md:border-r-2 border-slate-400 w-full md:w-auto'>
-            <img src='/image.png' className='w-full' style={{imageRendering: 'pixelated'}}/>
+        <div className='flex flex-col w-full md:w-[600px] md:pt-32'>
+            <section className='flex flex-col gap-8 md:flex-row'>
+                <img src='/image.png' className='w-full md:w-48' style={{imageRendering: 'pixelated'}}/>
+                <div className='flex flex-col gap-2 justify-center p-4'>
+                    <h1 className='text-3xl text-slate-400'>trevdev</h1>
+                    <p>software engineer and game developer.</p>
+                    <p>got a lot of ideas. making some real.</p>
+                </div>
+            </section>
             <div className='p-4 flex flex-col gap-2'>
-                <h1 className='text-3xl text-slate-400'>trevdev</h1>
-                <p>software engineer and game developer.</p>
-                <p>got a lot of ideas. making some real.</p>
-                <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>blog</h1>
                 <p>coming soon (maybe)</p>
                 <div className='h-[1px] w-full bg-slate-400'/>
