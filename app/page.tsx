@@ -25,6 +25,7 @@ export default function Home() {
                 <h1 className='text-2xl text-slate-400'>projects</h1>
                 <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-green-400'>realms</a>
                 <a href="https://trevdev-project-z.vercel.app/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-red-600'>Project Z</a>
+                <a href="https://store.steampowered.com/app/1634270/CHRONOPHOBIA/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-white'>CHRONOPHOBIA Demo</a>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>contact</h1>
                 <div className='flex flex-col items-center gap-2'>
