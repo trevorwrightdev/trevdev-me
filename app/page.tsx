@@ -23,8 +23,8 @@ export default function Home() {
                 </p>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>projects</h1>
-                <a href="https://gather.trevdev.me/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-blue-500'>Gather Clone</a>
                 <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-green-400'>realms</a>
+                <a href="https://gather.trevdev.me/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-blue-500'>Gather Clone</a>
                 <a href="https://trevdev-project-z.vercel.app/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-red-600'>Project Z</a>
                 <a href="https://store.steampowered.com/app/1634270/CHRONOPHOBIA/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-white'>CHRONOPHOBIA Demo</a>
                 <div className='h-[1px] w-full bg-slate-400'/>
