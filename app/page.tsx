@@ -22,6 +22,15 @@ export default function Home() {
                     <a href="https://pixijs.com/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-[#E72264]'>Pixi.js</a>, and a lot more. 
                 </p>
                 <div className='h-[1px] w-full bg-slate-400'/>
+                <h1 className='text-2xl text-slate-400'>work</h1>
+                <section className='flex flex-col'>
+                    <div className='flex flex-row gap-2'>
+                        <p className='text-yellow-500'>Augminted Labs</p>/
+                        <a href="https://origins.kaijukingz.io/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-red-500'>Kaiju Kingz</a>
+                    </div>
+                    <p className='text-xs'>Full-Stack Software Engineer</p>
+                </section>
+                <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>projects</h1>
                 <a href="https://www.realms.so/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-green-400'>realms</a>
                 <a href="https://gather.trevdev.me/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-blue-500'>Gather Clone</a>
