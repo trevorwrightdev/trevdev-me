@@ -1,5 +1,5 @@
 'use client'
-import { GithubLogo, XLogo, YoutubeLogo } from '@phosphor-icons/react'
+import { GithubLogo, XLogo, YoutubeLogo, TwitchLogo } from '@phosphor-icons/react'
 
 export default function Home() {
   return (
@@ -9,7 +9,8 @@ export default function Home() {
                 <img src='/image.png' className='w-full md:w-48' style={{imageRendering: 'pixelated'}}/>
                 <div className='flex flex-col gap-2 justify-center pl-4'>
                     <h1 className='text-3xl text-slate-400'>trevdev</h1>
-                    <p>got a lot of ideas. making some real.</p>
+                    <p>streaming software development on twitch!</p>
+                    <a href="https://www.twitch.tv/trevdev__" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-slate-400'>watch here</a>
                 </div>
             </section>
             <div className='p-4 flex flex-col gap-2'>
@@ -41,14 +42,14 @@ export default function Home() {
                 <h1 className='text-2xl text-slate-400'>contact</h1>
                 <div className='flex flex-col items-center gap-2'>
                     <div className='flex flex-row justify-center items-center gap-4'>
+                        <a href="https://www.twitch.tv/trevdev__" target="_blank" rel="noopener noreferrer">
+                            <TwitchLogo className='h-8 w-8 cursor-pointer hover:text-zinc-500'/>
+                        </a>
                         <a href="https://github.com/trevorwrightdev" target="_blank" rel="noopener noreferrer">
                             <GithubLogo className='h-8 w-8 cursor-pointer hover:text-zinc-500'/>
                         </a>
                         <a href="https://x.com/trevdev__" target="_blank" rel="noopener noreferrer">
                             <XLogo className='h-8 w-8 cursor-pointer hover:text-zinc-500'/>
-                        </a>
-                        <a href="https://www.youtube.com/@trevdev_1" target="_blank" rel="noopener noreferrer">
-                            <YoutubeLogo className='h-8 w-8 cursor-pointer hover:text-zinc-500'/>
                         </a>
                     </div>
                     <p>or email me at <a href='mailto:contact@trevdev.me' className='underline text-slate-400'>contact@trevdev.me</a></p>
