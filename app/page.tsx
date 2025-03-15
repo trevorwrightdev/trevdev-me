@@ -9,8 +9,7 @@ export default function Home() {
                 <img src='/image.png' className='w-full md:w-48' style={{imageRendering: 'pixelated'}}/>
                 <div className='flex flex-col gap-2 justify-center pl-4'>
                     <h1 className='text-3xl text-slate-400'>trevdev</h1>
-                    <p>streaming software development on twitch!</p>
-                    <a href="https://www.twitch.tv/trevdev__" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-slate-400'>watch here</a>
+                    <p>software engineer and game developer</p>
                 </div>
             </section>
             <div className='p-4 flex flex-col gap-2'>
@@ -24,12 +23,19 @@ export default function Home() {
                 </p>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>work</h1>
-                <section className='flex flex-col'>
-                    <div className='flex flex-row gap-2'>
-                        <p className='text-yellow-500'>Augminted Labs</p>/
-                        <a href="https://origins.kaijukingz.io/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-red-500'>Kaiju Kingz</a>
+                <section className='flex flex-col gap-2'>
+                    <div className='flex flex-col'>
+                        <a href="https://lofi.town/" target="_blank" rel="noopener noreferrer" className='text-[#E1E995] underline'>lofi.town</a>
+                        <p className='text-xs'>Co-Founder & CTO</p>
                     </div>
-                    <p className='text-xs'>Full-Stack Software Engineer</p>
+                    <div className='flex flex-col'>
+                        <div className='flex flex-row gap-2'>
+                            <p className='text-yellow-500'>Augminted Labs</p>/
+                            <a href="https://origins.kaijukingz.io/" target="_blank" rel="noopener noreferrer" className='underline max-w-max text-red-500'>Kaiju Kingz</a>
+                        </div>
+                        <p className='text-xs'>Full-Stack Software Engineer</p>
+                    </div>
+                    
                 </section>
                 <div className='h-[1px] w-full bg-slate-400'/>
                 <h1 className='text-2xl text-slate-400'>projects</h1>
